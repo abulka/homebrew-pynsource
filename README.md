@@ -21,7 +21,7 @@ There are **two** casks called `pynsource`:
 | `pynsource` (Homebrew's own tap) | 1.84 | **disabled** since 2026-09-01: Intel build that fails the macOS Gatekeeper check |
 | `abulka/pynsource/pynsource` (this tap) | current | arm64, onedir, installs prompt-free |
 
-So `brew info pynsource` prints a red `(disabled)`, a version "2026.11.3 → 1.84" and an
+So `brew info pynsource` prints a red `(disabled)`, a version "2026.11.4 → 1.84" and an
 "built for Intel macOS / needs Rosetta 2" caveat — all of that describes Homebrew's old 1.84
 cask, not this one. Likewise `brew upgrade --cask pynsource` (unqualified) refuses with
 "Not upgrading pynsource, it is disabled…". Use the tap-qualified name, or plain

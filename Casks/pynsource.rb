@@ -1,12 +1,12 @@
 cask "pynsource" do
-  version "2026.11.3"
-  sha256 "f674c70d9b5ea3a1dd603be88f71d99dd39fe00a555ca47304811ca85de8227b"
+  version "2026.11.4"
+  sha256 "038c8a2f7004302d0bcb93e6b3d3b52cfa35b82ad0f3946d9421be778636db26"
 
   # NOTE: points at a pre-release asset for now because there is no versioned release of the
   # onedir rewrite yet. At the next `version-*` release switch these two lines to:
   #   version "1.86"
   #   url "https://github.com/abulka/pynsource/releases/download/version-#{version}/pynsource-macos-version-#{version}.zip"
-  url "https://github.com/abulka/pynsource/releases/download/pre-2026-dustoff-3/pynsource-macos-pre-2026-dustoff-3.zip"
+  url "https://github.com/abulka/pynsource/releases/download/pre-2026-dustoff-4/pynsource-macos-pre-2026-dustoff-4.zip"
   name "Pynsource"
   desc "UML class diagram reverse engineering for Python"
   homepage "https://www.pynsource.com/"
