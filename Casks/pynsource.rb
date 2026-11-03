@@ -38,5 +38,11 @@ cask "pynsource" do
     Viewing and editing diagrams needs no licence. The Pro features (zoom,
     drag-to-connect, module visualisation) need a licence:
     https://www.pynsource.com/pricing.html
+
+    Note: "brew info pynsource" and "brew upgrade --cask pynsource" (WITHOUT the
+    abulka/pynsource/ prefix) refer to Homebrew's own old 1.84 cask, which is disabled
+    because it is an Intel build that fails the macOS Gatekeeper check. This cask is
+    arm64 and is installed prompt-free. Always use the tap-qualified name, or just run
+    "brew upgrade" with no arguments.
   EOS
 end
